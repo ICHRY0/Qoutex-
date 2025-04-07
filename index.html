@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuoteX Hacker Login</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #00ffcc;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      background: #0a0a1a;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px #00ffc3;
+      text-align: center;
+      width: 300px;
+    }
+    .login-box h2 {
+      margin-bottom: 25px;
+      font-size: 22px;
+      color: #00ffc3;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 8px;
+      background: #1a1a2d;
+      color: #00ffcc;
+      font-size: 14px;
+    }
+    button {
+      background: #00ffcc;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      box-shadow: 0 0 20px #00ffcc;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>QuoteX Hacker Login</h2>
+    <input type="text" placeholder="Username" id="username" />
+    <input type="password" placeholder="Password" id="password" />
+    <button onclick="login()">Login</button>
+  </div>
+  <script>
+    function login() {
+      window.location.href = 'dashboard.html';
+    }
+  </script>
+</body>
+</html>
